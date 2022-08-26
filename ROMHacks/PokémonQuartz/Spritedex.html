@@ -3,24 +3,32 @@
 
 	<head>
 		<title>Pokémon Quartz &mdash; Spritedex</title>
-		<link rel="stylesheet" href="../../Resources/Code/styles.css">
-		<script src="../../Resources/Code/dynamics.js"></script>
+		<link rel="stylesheet" href="../../styles.css">
+		<script src="../../dynamics.js"></script>
 	</head>
 
 	<body>
 		
 		<header>
 			<!--#include file="header.shtml" -->
-			<img src="DexLEDs.png" class="decoration"></img>
-			<img src="DexSlider.png" class="decoration" style="float:right;"></img>
-			<a href=#><img src="DexHeader.png" class="decoration" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center;"></img></a>
+			<img src="../../Resources/DexLEDs.png" class="decoration"></img>
+			<img src="../../Resources/DexSlider.png" class="decoration" style="float:right;"></img>
+			<a href=#><img src="../../Resources/DexHeader.png" class="decoration" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center;"></img></a>
 			
-			<img src="NavButton.png" class="mobile-button" onclick="toggleBar('nav-mobile')"></img>
-			<img src="NavButton.png" class="mobile-button" onclick="toggleBar('side-mobile')" style="float: right"></img>
-			<a href=#><img src="DexHeaderMobile.png" class="mobile-button" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center;"></img></a>
+			<img src="../../Resources/NavButton.png" class="mobile-button" onclick="toggleBar('nav-mobile')"></img>
+			<img src="../../Resources/NavButton.png" class="mobile-button" onclick="toggleBar('side-mobile')" style="float: right"></img>
+			<a href=#><img src="../../Resources/DexHeaderMobile.png" class="mobile-button" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center;"></img></a>
 		</header>
 		
 		<div style="display: flex;"><!--Make nav, article, and side all have the same height-->
+		
+			<script>
+				$(document).ready(function(){
+					$("nav").load("../../navbar.html");
+					$("nav-mobile").load("../../navbar.html");
+				});
+			</script>
+		
 			<nav>
 			</nav>
 			
