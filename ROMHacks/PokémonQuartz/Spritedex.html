@@ -22,19 +22,10 @@
 		
 		<div style="display: flex;"><!--Make nav, article, and side all have the same height-->
 		
-			<script>
-				$(document).ready(function(){
-					$("nav").load("/navbar.html");
-					$("nav-mobile").load("/navbar.html");
-				});
-			</script>
-		
-			<nav>
-				<!--#include file="../../navbar.html" -->
-				<link rel="import" href="../../navbar.html">
+			<nav include-html="../../navbar.html" id="navbar">
 			</nav>
 			
-			<nav-mobile id="nav-mobile" style="display: none;">
+			<nav-mobile include-html="../../navbar.html" id="nav-mobile" style="display: none;">
 			</nav-mobile>
 			
 			<article>
