@@ -1,3 +1,31 @@
+function includeHTML() {
+	var z, i, elmnt, file, xhttp;
+	/*loop through a collection of all HTML elements:*/
+	z = document.getElementsByTagName("*");
+	for (i = 0; i < z.length; i++) {
+		elmnt = z[i];
+		/*search for elements with a certain attribute:*/
+		file = elmnt.getAttribute("include-html");
+		if (file) {
+			/*make an HTTP request using the attribute value as the file name:*/
+			xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				if (this.readyState == 4) {
+					if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+					if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+					/*remove the attribute, and call this function once more:*/
+					elmnt.removeAttribute("include-html");
+					includeHTML();
+				}
+			}      
+			xhttp.open("GET", file, true);
+			xhttp.send();
+			/*exit the function:*/
+			return;
+		}
+	}
+};
+
 function toggleBar(id) {
 	var bar = document.getElementById(id);
 	if (bar.style.display === "none") {
@@ -6,10 +34,6 @@ function toggleBar(id) {
 	else {
 		bar.style.display = "none";
 	}
-}
-
-function loadBar(content) {/*TEST------------------------------------------------------------------------------------------*/
-	document.getElementById(content).innerHTML='<object type="text/html" data="navbar.html" ></object>';
 }
 
 function flipSprite(spr, front, back, tex) {
