@@ -13,7 +13,7 @@
 			<!--#include file="header.shtml" -->
 			<img src="../../Resources/DexLEDs.png" class="decoration"></img>
 			<img src="../../Resources/DexSlider.png" class="decoration" style="float:right;"></img>
-			<a href=#><img src="/Resources/DexHeader.png" class="decoration" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center;"></img></a>
+			<a href=#><img src="../../Resources/DexHeader.png" class="decoration" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center;"></img></a>
 			
 			<img src="../../Resources/NavButton.png" class="mobile-button" onclick="toggleBar('nav-mobile')"></img>
 			<img src="../../Resources/NavButton.png" class="mobile-button" onclick="toggleBar('side-mobile')" style="float: right"></img>
@@ -24,12 +24,13 @@
 		
 			<script>
 				$(document).ready(function(){
-					$("nav").load(../../"navbar.html");
-					$("nav-mobile").load(../../"navbar.html");
+					$("nav").load("/navbar.html");
+					$("nav-mobile").load("/navbar.html");
 				});
 			</script>
 		
 			<nav>
+				<!--#include virtual="../../navbar.html" --> 
 			</nav>
 			
 			<nav-mobile id="nav-mobile" style="display: none;">
