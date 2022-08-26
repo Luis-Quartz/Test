@@ -4,7 +4,6 @@
 	<head>
 		<link rel="stylesheet" href="styles.css">
 		<script src="dynamics.js"></script>
-		<script src="jquery-3.6.0.min.js"></script>
 	</head>
 
 	<body>
@@ -21,29 +20,16 @@
 		</header>
 		
 		<div style="display: flex;"><!--Make nav, article, and sidebar all have the same height-->
-			<nav id="navbar">
-				
-				
+		
+			<nav include-html="navbar.html" id="navbar">
 			</nav>
 			
-			
-			<script>
-				$(document).ready(function(){
-					/*$("p").hide();*/
-					$("nav").append("appended text<br>");
-					$("nav").load("navbar.html");
-					$("nav").append("appended text 2<br>");
-				});
-			</script>
-			
-			<nav-mobile id="nav-mobile" style="display: none;">
-				
+			<nav-mobile include-html="navbar.html" id="nav-mobile" style="display: none;">
 			</nav-mobile>
 			
 			<article>
 			
 				<h1>Pokémon Quartz Pokédex</h1>
-				<button>Append</button>
 				<p>Pokémon Quartz introduced 386 new Fakemon, replacing every existing Pokémon as of Generation 3. Many Fakemon in Pokémon Quartz are direct stand-ins for official Pokémon.</p>
 				<p>This page lists all of these Fakemon in National Pokédex order, separated by Generation.</p>
 				<h2>Generation 1</h2>
@@ -84,9 +70,7 @@
 							<img class="ico" src="Zygarde-Complete_icon.png"></img>
 						</td>
 						<td class="leftalign">
-							<a href="nuevo 1">
-								Charizard
-							</a>
+							Charizard
 						</td>
 						<td>
 							<p class="type Fire">Fire</p>
