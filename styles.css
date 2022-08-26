@@ -1,0 +1,571 @@
+/*General Page Layout===========================================================================================*/
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%; /*Makes the page stretch to fill window*/
+}
+
+body {
+	height: 100%;
+	font-family: sans-serif;
+	margin: 0;
+	background-color: lightgray;
+}
+
+header {
+  background-color: #fa543f;
+  height: 82px;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+nav {
+	float: left;
+	width: 200px;
+	margin: 0;
+	padding: 0px;
+	background-color: #f1f1f1;
+}
+nav-mobile {
+	position: absolute;
+	float: left;
+	width: 200px;
+	margin: 0;
+	padding: 0px;
+	background-color: #f1f1f1;
+	overflow-y: scroll;
+	height: calc(100% - 82px);
+}
+
+side {
+	float: right;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+}
+side-mobile {
+	position: absolute;
+	right: 0;
+	margin-left: 800px;
+	width: 200px;
+	margin: 0;
+	padding: 0px;
+	background-color: #f1f1f1;
+}
+
+/*Page Core-------------------------------------------------------------------------------*/
+h1.barheader {
+	margin: 0;
+	padding: 15px;
+	background: #ababab;
+	font-size: 15pt;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #555;
+	color: white;
+	text-decoration: none;
+}
+
+article {
+	float: left;
+	padding: 20px;
+	width: calc(100% - 400px);
+	background-color: #ffffff;
+}
+
+footer {
+	padding: 5px;
+	width: 100%;
+	float: left;
+	background-color: darkgray;
+}
+
+/*Screen Response-----------------------------------------------------------------------*/
+.mobile-button {
+	float: left;
+	top: 15px;
+	left: 15px;
+	height: 52px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 830px) { /*What to do when screen is or becomes too small*/
+	/*Hide nav and side bars*/
+	nav {
+		display: none;
+	}
+	side {
+		display: none;
+	}
+	/*make article 100% of the screen's width*/
+	article {
+		width: 100%;
+		height: 100%;
+	}
+	img.decoration {
+		visibility: hidden;
+		width: 0px;
+	}
+}
+
+@media only screen and (min-width: 831px) { /*What to do if screen becomes large enough*/
+	nav-mobile {
+		visibility: hidden;
+	}
+	side-mobile {
+		visibility: hidden;
+	}
+	img.mobile-button {
+		visibility: hidden;
+	}
+}
+
+/*Pokédex List Styles========================================================================================================*/
+h1 {
+	margin: 0px;
+	font-size: 21pt;
+}
+h2 {
+	font-size: 18pt;
+	text-align: center;
+}
+h3 {
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+	font-size: 14.5pt;
+}
+h4 {
+	margin: 5px 0px 5px 0px;
+	font-size: 12pt;
+}
+
+p {
+	padding: 0px 2px 0px 2px;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+p.data {
+	margin: 0px;
+}
+p.type {
+	text-align: center;
+	color: white;
+	border-radius: 7px;
+	margin: 2px;
+	padding: 1px;
+}
+p.Fire {
+	background-color: #f05a32;
+}
+p.Water {
+	background-color: #6991f0;
+}
+p.Electric {
+	background-color: #fad232;
+}
+p.Grass {
+	background-color: #78c850;
+}
+p.Ice {
+	background-color: #96d7d7;
+}
+p.Fighting {
+	background-color: #be3c28;
+}
+p.Poison {
+	background-color: #a041a0;
+}
+p.Ground {
+	background-color: #e1be69;
+}
+p.Flying {
+	background-color: #aa91f0;
+}
+p.Psychic {
+	background-color: #fa5a87;
+}
+p.Bug {
+	background-color: #9bb91e;
+}
+p.Rock {
+	background-color: #b9a037;
+}
+p.Ghost {
+	background-color: #6e5a96;
+}
+p.Dragon {
+	background-color: #6e37fa;
+}
+p.Dark {
+	background-color: #464650;
+}
+p.Steel {
+	background-color: #b9b9d2;
+}
+p.Fairy {
+	background-color: #f096aa;
+}
+p.Normal {
+	background-color: #aaaa82;
+}
+p.qqq {
+	background-color: #73a596;
+}
+p.Shadow {
+	background-color: #5d1616;
+}
+p.Nuclear {
+	background-color: #50f546;
+}
+p.Light {
+	background-color: #d2d282;
+}
+p.Sound {
+	background-color: #697873;
+}
+p.Magic {
+	background-color: #aa6eaa;
+}
+p.Digital {
+	background-color: #46cdaf;
+}
+p.Cosmic {
+	background-color: #500a82;
+}
+p.Crystal {
+	background-color: #5adcfa;
+}
+
+table {
+	border: 1px solid #0a0a0a;
+	border-radius: 10px;
+	background-color: #8888a2;
+	padding: 2px;
+}
+table tr:first-child th:first-child { /*Round top-left border if it's the first row of the first column.*/
+	border-radius: 10px 0 0 0;
+}
+table tr:first-child th:last-child {
+	border-radius: 0 10px 0 0;
+}
+table tr:first-child th:first-child:last-child { /*If there is only one colums, round its top corners.*/
+	border-radius: 10px 10px 0 0;
+}
+
+table tr:first-child td:first-child {
+	border-radius: 10px 0 0 0;
+}
+table tr:first-child td:last-child {
+	border-radius: 0 10px 0 0;
+}
+
+table tr:last-child th:first-child {
+	border-radius: 0 0 0 10px;
+}
+table tr:last-child th:last-child {
+	border-radius: 0 0 10px 0;
+}
+
+table tr:last-child td:first-child {
+	border-radius: 0 0 0 10px;
+}
+table tr:last-child td:last-child {
+	border-radius: 0 0 10px 0;
+}
+
+table tr:last-child td:first-child:last-child { /*If the cell is the last one in a single colum, round its bottom edges.*/
+	border-radius: 0 0 10px 10px;
+}
+
+table tr:first-child:last-child td:first-child:last-child { /*If the cell is the only cell, round all corners.*/
+	border-radius: 10px;
+}
+
+th{
+	background-color: #dedef0;
+}
+th.sortable:hover {
+	cursor: pointer;
+}
+td {
+	background-color: #fcfcff;
+	text-align: center;
+}
+
+.dexlist {
+	width: 100%;
+	max-width: 500px;
+	margin: auto;
+}
+.col15 {
+	width: 15%;
+}
+.ico {
+	vertical-align: bottom;
+	padding: 5px;
+}
+.col40 {
+	width: 40%;
+}
+.leftalign {
+	text-align: left;
+	padding-left: 5px;
+}
+.col30 {
+	width: 30%;
+}
+
+/*Pokédex Gallery Styles========================================================================================*/
+div.gallerycontainer {
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap: 20px;
+	justify-content: center;
+	width: 100%;
+}
+th.sprh {
+	min-width: 218px;
+	padding-top: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+td.sprf {
+	padding: 24px 24px 8px 24px;
+	height: 100%;
+	vertical-align: bottom;
+}
+.cell50 {
+	width: 50%;
+}
+
+/*Pokédex Page Styles===========================================================================================*/
+table tr:first-child:last-child th:first-child { /*If this is the only row and this is the first cell in it, round its left corners.*/
+	border-radius: 10px 0 0 10px;
+}table tr:first-child:last-child td:first-child { /*If this is the only row and this is the first cell in it, round its left corners.*/
+	border-radius: 10px 0 0 10px;
+}table tr:first-child:last-child th:last-child { /*If this is the only row and this is the last cell in it, round its right corners.*/
+	border-radius: 0 10px 10px 0;
+}table tr:first-child:last-child td:last-child { /*If this is the only row and this is the last cell in it, round its right corners.*/
+	border-radius: 0 10px 10px 0;
+}
+.full {
+	width: 100%;
+}
+.col35 {
+	width: 35%;
+}
+.rightalign {
+	text-align: right;
+	padding-right: 5px;
+}
+.marginbtm {
+	margin-bottom: 20px;
+}
+th.family {
+	color: #f7c03d;
+	padding: 3px 0 3px 0;
+	background-color: #151515;
+	font-size: 15pt;
+}
+td.familyspacing {
+	margin: 8px;
+}
+th.species {
+	color: white;
+	padding: 3px 0 3px 0;
+	background-color: #e82a23;
+	font-size: 15pt;
+}
+
+
+
+
+
+
+hr {
+	margin-top: 15px;
+}
+
+img.interactive {
+	cursor: pointer;
+}
+
+/*Divs-----------------------------------------------------------------------------------------------------------*/
+div.sec {
+	display: grid;
+	justify-content: center;
+}
+div.section {
+	display: table;
+	margin: -10px 0px 10px -10px; /*Offset left and right edges to make space between divs and page edges equal*/
+	padding: 0;
+	vertical-align: top;
+	width: calc(100% + 20px);
+}
+div.tablecontainer {
+	text-align: center;
+	vertical-align: top;
+	float: left;
+	width: 397px;
+	padding: 0px;
+	margin: 10px; /*Add space between tables, first and last table are offset by div.section's negative margins*/
+}
+div.tablecontainerspr {
+	text-align: center;
+	vertical-align: top;
+	float: left;
+	width: 210px; /*Make sprite tables all 210x210 px*/
+	height: 210px;
+	margin: 10px;
+}
+div.tablecontainerart {
+	text-align: center;
+	vertical-align: top;
+	float: left;
+	width: 260px; /*Make sprite tables all 260x260 px*/
+	height: 260px;
+	margin: 10px;
+}
+div.tablecontainerh {
+	text-align: center;
+	vertical-align: top;
+	float: left;
+	width: 300px;
+	padding: 0px;
+	margin: 10px 10px 0px 10px; /*Add space between tables, first and last table are offset by div.section's negative margins*/
+}
+
+/*Sprites-------------------------------------------------------------------------------------------------------*/
+img.decoration {
+	float: left;
+	top: 15px;
+	left: 15px;
+	height: 52px;
+}
+img.art {
+	max-width: 236px;
+	max-height: 164px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Tables--------------------------------------------------------------------------------------------------------*/
+
+table.dexequidistant {
+	width: 100%;
+	border: 1px solid #0a0a0a;
+	padding: 2px;
+	margin: auto;
+	margin-bottom: 0px;
+	max-width: 500px;
+}
+
+table.spr {
+	width: 150px;
+	height: 150px;
+	border: 1px solid #0a0a0a;
+	padding: 2px;
+	margin: auto;
+	margin-bottom: 0px;
+}
+
+table.art {
+	width: 150px;
+	height: 150px;
+	border: 1px solid #0a0a0a;
+	padding: 2px;
+	margin: auto;
+	margin-bottom: 0px;
+}
+table.dexh {
+	border: 1px solid #0a0a0a;
+	padding: 2px;
+	width: 100%;
+	max-width: 500px;
+}
+td.spr {
+	text-align: center;
+	vertical-align: bottom;
+	background-color: #fcfcff;
+	padding: 7px 7px 3px 7px;
+	width: 200px;
+	height: 166px;
+}
+td.sprtype {
+	width: 104px; /*Should be (td.spr's width / 2) - 1*/
+	text-align: center;
+	background-color: #fcfcff;
+}
+td.art {
+	text-align: center;
+	vertical-align: bottom;
+	background-color: #fcfcff;
+	padding: 7px 7px 3px 7px;
+	width: 250px;
+	height: 196px;
+}
+td.dexspr {
+	text-align: center;
+	vertical-align: bottom;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	background-color: #fcfcff;
+	padding: 7px 7px 3px 7px;
+}
+
+th.dexh {
+	text-align: center;
+	background-color: #dedef0;
+	padding: 3px 10px 3px 10px;
+	width: 35%;
+}
+td.dexh {
+	text-align: center;
+	background-color: #fcfcff;
+	width: 65%;
+}
+
+th.dexv {
+	text-align: center;
+	background-color: #dedef0;
+	padding: 3px 10px 3px 10px;
+}
+td.dexv {
+	text-align: center;
+	background-color: #fcfcff;
+}
+td.icon {
+	width: 66px;
+}
+td.name {
+	text-align: left;
+}
+@font-face { font-family: PokemonFL; src: url('pkmnfl.ttf'); }
+@font-face { font-family: Delicious; font-weight: bold; src: url('Delicious-Bold.otf');}
