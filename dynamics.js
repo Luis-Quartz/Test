@@ -24,7 +24,7 @@ function includeHTML() {
 			return;
 		}
 	}
-};
+}
 
 function toggleBar(id) {
 	var bar = document.getElementById(id);
