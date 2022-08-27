@@ -40,6 +40,10 @@ img.interactive {
 	cursor: pointer;
 }
 
+#main-div {
+	display: flexbox;
+}
+
 #nav {
 	height: 100%;
 	float: left;
