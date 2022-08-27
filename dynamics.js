@@ -42,11 +42,9 @@ function flipSprite(spr, front, back, tex) {
 	if (sp.title == "Front") {
 		sp.src = back;
 		sp.title = "Back";
-		tx.innerHTML = "<i>Back</i>";
 	} else {
 		sp.src = front;
 		sp.title = "Front";
-		tx.innerHTML = "<i>Front</i>";
 	}
 }
 
