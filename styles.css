@@ -26,8 +26,15 @@ header {
   font-size: 20px;
   color: white;
 }
+img.decoration {
+	float: left;
+	top: 15px;
+	left: 15px;
+	height: 52px;
+}
 
 nav {
+	height: 100%
 	float: left;
 	width: 200px;
 	margin: 0;
@@ -50,6 +57,7 @@ nav-mobile {
 }
 
 side {
+	height: 100%;
 	float: right;
 	text-align: left;
 	padding: 0;
@@ -470,12 +478,7 @@ div.tablecontainerh {
 }
 
 /*Sprites-------------------------------------------------------------------------------------------------------*/
-img.decoration {
-	float: left;
-	top: 15px;
-	left: 15px;
-	height: 52px;
-}
+
 img.art {
 	max-width: 236px;
 	max-height: 164px;
