@@ -8,18 +8,10 @@
 
 	<body>
 		
-		<header>
-			<!--#include file="header.shtml" -->
-			<img src="Resources/DexLEDs.png" class="decoration"></img>
-			<img src="Resources/DexSlider.png" class="decoration" style="float:right;"></img>
-			<a href=><img src="Resources/DexHeader.png" class="decoration" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center;"></img></a>
-			
-			<img src="Resources/NavButton.png" class="mobile-button" onclick="toggleBar('nav-mobile')"></img>
-			<img src="Resources/NavButton.png" class="mobile-button" onclick="toggleBar('side-mobile')" style="float: right"></img>
-			<a href=#><img src="Resources/DexHeaderMobile.png" class="mobile-button" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center;"></img></a>
+		<header include-html="header.html">
 		</header>
 		
-		<div style="display: flex;"><!--Make nav, article, and sidebar all have the same height-->
+		<div id="main-div">
 		
 			<nav include-html="navbar.html" id="navbar">
 			</nav>
@@ -133,7 +125,6 @@
 					</tr>
 				</table>
 				
-				<!--#include file="ChapebayaFamily.shtml" -->
 				<table class="dexlist marginbtm">
 					<tr>
 						<th class="family">
@@ -295,7 +286,6 @@
 					</table>
 				</div>
 				</div>
-				
 				
 				<hr>
 				
@@ -495,8 +485,7 @@
 			</side-mobile>
 		</div>
 		
-		<footer>
-			<p>The Fakemon Library is a project dedicated to documenting as many Fakemon as possible while maintaining consistent quality and presentation.</p>
+		<footer include-html="footer.html">
 		</footer>
 		
 		<script>
