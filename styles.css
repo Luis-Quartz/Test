@@ -41,11 +41,10 @@ img.interactive {
 }
 
 #main-div {
-	display: grid;
+	display: flex;
 }
 
 #nav {
-	height: 100%;
 	float: left;
 	padding: 0;
 	margin: 0;
@@ -72,7 +71,6 @@ article {
 }
 
 #side {
-	height: 100%;
 	float: right;
 	padding: 0;
 	margin: 0;
