@@ -9,23 +9,15 @@
 
 	<body>
 		
-		<header>
-			<!--#include file="header.shtml" -->
-			<img src="../../Resources/DexLEDs.png" class="decoration"></img>
-			<img src="../../Resources/DexSlider.png" class="decoration" style="float:right;"></img>
-			<a href=#><img src="../../Resources/DexHeader.png" class="decoration" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center;"></img></a>
-			
-			<img src="../../Resources/NavButton.png" class="mobile-button" onclick="toggleBar('nav-mobile')"></img>
-			<img src="../../Resources/NavButton.png" class="mobile-button" onclick="toggleBar('side-mobile')" style="float: right"></img>
-			<a href=#><img src="../../Resources/DexHeaderMobile.png" class="mobile-button" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center;"></img></a>
+		<header include-html="../../header.html">
 		</header>
 		
-		<div style="display: flex;"><!--Make nav, article, and side all have the same height-->
+		<div id="main-div">
 		
-			<nav include-html="../../navbar.html" id="navbar">
+			<nav include-html="../../navbar.html">
 			</nav>
 			
-			<nav-mobile include-html="../../navbar.html" id="nav-mobile" style="display: none;">
+			<nav-mobile include-html="../../navbar.html" id="nav-m" style="display: none;">
 			</nav-mobile>
 			
 			<article>
@@ -105,46 +97,13 @@
 				
 			</article>
 			
-			<side>
-				<!--#include file="navbar.shtml" -->
-				<ul>
-				<h1 class="barheader">Pokémon</h1>
-					<li><a href=#>Pokédex</a></li>
-					<li><a href=#>Spritedex</a></li>
-					<li><a href=#>New Fakemon</a></li>
-					<li><a href=#>New Fakemon Forms</a></li>
-					<li><a href=#>New Pokémon Forms</a></li>
-					<li><a href=#>Returning Fakemon</a></li>
-					<li><a href=#>Returning Pokémon</a></li>
-				<h1 class="barheader">Other Info</h1>
-					<li><a href=#>PokéNav</a></li>
-					<li><a href=#>Item Compendium</a></li>
-					<li><a href=#>Story</a></li>
-					<li><a href=#>Characters</a></li>
-				</ul>
+			<side include-html="sidebar.html">
 			</side>
-			<side-mobile id="side-mobile" style="display: none;">
-				<!--#include file="navbar.shtml" -->
-				<ul>
-				<h1 class="barheader">Pokémon</h1>
-					<li><a href=#>Pokédex</a></li>
-					<li><a href=#>Spritedex</a></li>
-					<li><a href=#>New Fakemon</a></li>
-					<li><a href=#>New Pokémon Forms</a></li>
-					<li><a href=#>New Fakemon Forms</a></li>
-					<li><a href=#>Returning Fakemon</a></li>
-					<li><a href=#>Returning Pokémon</a></li>
-				<h1 class="barheader">Other Info</h1>
-					<li><a href=#>PokéNav</a></li>
-					<li><a href=#>Item Compendium</a></li>
-					<li><a href=#>Story</a></li>
-					<li><a href=#>Characters</a></li>
-				</ul>
+			<side-mobile include-html="sidebar.html" id="side-m" style="display: none;">
 			</side-mobile>
 		</div>
 		
-		<footer>
-			<p>Copyright Luis Quartz 1996-Present</p>
+		<footer include-html="footer.html">
 		</footer>
 		
 		<script>
