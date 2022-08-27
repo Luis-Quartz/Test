@@ -125,10 +125,10 @@ li a:hover {
 
 @media only screen and (max-width: 830px) { /*What to do when screen is or becomes too small*/
 	/*Hide nav and side bars*/
-	nav {
+	#nav {
 		display: none;
 	}
-	side {
+	#side {
 		display: none;
 	}
 	/*make article 100% of the screen's width*/
@@ -143,10 +143,10 @@ li a:hover {
 }
 
 @media only screen and (min-width: 831px) { /*What to do if screen becomes large enough*/
-	nav-mobile {
+	#nav-mobile {
 		visibility: hidden;
 	}
-	side-mobile {
+	#side-mobile {
 		visibility: hidden;
 	}
 	img.mobile-button {
