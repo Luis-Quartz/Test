@@ -13,10 +13,6 @@ body {
 	background-color: lightgray;
 }
 
-#main-div {
-	display: flex;
-}
-
 header {
   background-color: #fa543f;
   height: 82px;
@@ -64,6 +60,13 @@ img.interactive {
 	overflow-y: scroll;
 }
 
+article {
+	float: left;
+	padding: 20px;
+	width: calc(100% - 400px);
+	background-color: #ffffff;
+}
+
 #side {
 	height: 100%;
 	float: right;
@@ -83,13 +86,6 @@ img.interactive {
 	overflow-y: scroll;
 	
 	position: absolute;
-}
-
-article {
-	float: left;
-	padding: 20px;
-	width: calc(100% - 400px);
-	background-color: #ffffff;
 }
 
 footer {
