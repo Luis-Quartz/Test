@@ -26,8 +26,8 @@ function includeHTML() {
 	}
 }
 
-function toggleBar(id) {
-	var bar = document.getElementById(id);
+function toggleBar(tag) {
+	var bar = document.getElementByTagName(tag);
 	if (bar.style.display === "none") {
 		bar.style.display = "block";
 	}
