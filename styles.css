@@ -33,7 +33,7 @@ img.decoration {
 	height: 52px;
 }
 
-nav {
+#nav {
 	height: 100%;
 	float: left;
 	text-align: left;
@@ -42,7 +42,7 @@ nav {
 	width: 200px;
 	background-color: #f1f1f1;
 }
-nav-mobile {
+#nav-m {
 	height: calc(100% - 82px);
 	float: left;
 	width: 200px;
@@ -54,7 +54,7 @@ nav-mobile {
 	overflow-y: scroll;
 }
 
-side {
+#side {
 	height: 100%;
 	float: right;
 	text-align: left;
@@ -63,7 +63,7 @@ side {
 	width: 200px;
 	background-color: #f1f1f1;
 }
-side-mobile {
+#side-mobile {
 	position: absolute;
 	right: 0;
 	margin-left: 800px;
