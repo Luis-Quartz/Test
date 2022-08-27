@@ -4,14 +4,17 @@
 }
 
 html {
-	height: 100%; /*Makes the page stretch to fill window*/
 }
 
 body {
-	height: 100%;
+	height: min(100vh, 500px);
 	font-family: sans-serif;
 	margin: 0;
 	background-color: lightgray;
+}
+
+#main-div {
+	display: flex;
 }
 
 header {
@@ -30,6 +33,8 @@ nav {
 	margin: 0;
 	padding: 0px;
 	background-color: #f1f1f1;
+	
+	display: flex;
 }
 nav-mobile {
 	position: absolute;
@@ -40,6 +45,8 @@ nav-mobile {
 	background-color: #f1f1f1;
 	overflow-y: scroll;
 	height: calc(100% - 82px);
+	
+	display: flex;
 }
 
 side {
@@ -58,6 +65,22 @@ side-mobile {
 	margin: 0;
 	padding: 0px;
 	background-color: #f1f1f1;
+	overflow-y: scroll;
+	height: calc(100% - 82px);
+}
+
+article {
+	float: left;
+	padding: 20px;
+	width: calc(100% - 400px);
+	background-color: #ffffff;
+}
+
+footer {
+	padding: 5px;
+	width: 100%;
+	float: left;
+	background-color: darkgray;
 }
 
 /*Page Core-------------------------------------------------------------------------------*/
@@ -83,20 +106,6 @@ li a:hover {
 	background-color: #555;
 	color: white;
 	text-decoration: none;
-}
-
-article {
-	float: left;
-	padding: 20px;
-	width: calc(100% - 400px);
-	background-color: #ffffff;
-}
-
-footer {
-	padding: 5px;
-	width: 100%;
-	float: left;
-	background-color: darkgray;
 }
 
 /*Screen Response-----------------------------------------------------------------------*/
