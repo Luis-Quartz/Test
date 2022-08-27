@@ -41,7 +41,7 @@ img.interactive {
 }
 
 #main-div {
-	display: flexbox;
+	display: grid;
 }
 
 #nav {
