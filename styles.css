@@ -143,10 +143,10 @@ li a:hover {
 }
 
 @media only screen and (min-width: 831px) { /*What to do if screen becomes large enough*/
-	#nav-mobile {
+	#nav-m {
 		visibility: hidden;
 	}
-	#side-mobile {
+	#side-m {
 		visibility: hidden;
 	}
 	img.mobile-button {
