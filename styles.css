@@ -32,11 +32,13 @@ img.decoration {
 	left: 15px;
 	height: 52px;
 }
+img.interactive {
+	cursor: pointer;
+}
 
 #nav {
 	height: 100%;
 	float: left;
-	text-align: left;
 	padding: 0;
 	margin: 0;
 	width: 200px;
@@ -57,14 +59,13 @@ img.decoration {
 #side {
 	height: 100%;
 	float: right;
-	text-align: left;
 	padding: 0;
 	margin: 0;
 	width: 200px;
 	background-color: #f1f1f1;
 }
-#side-mobile {
-	position: absolute;
+#side-m {
+	height: calc(100% - 82px);
 	right: 0;
 	margin-left: 800px;
 	width: 200px;
@@ -72,7 +73,8 @@ img.decoration {
 	padding: 0px;
 	background-color: #f1f1f1;
 	overflow-y: scroll;
-	height: calc(100% - 82px);
+	
+	position: absolute;
 }
 
 article {
@@ -159,22 +161,14 @@ h1 {
 	margin: 0px;
 	font-size: 21pt;
 }
-h2 {
-	font-size: 18pt;
-	text-align: center;
-}
-h3 {
-	margin: 0px 0px 5px 0px;
-	padding: 0px;
-	font-size: 14.5pt;
-}
-h4 {
-	margin: 5px 0px 5px 0px;
-	font-size: 12pt;
-}
 
 p {
 	padding: 0px 2px 0px 2px;
+}
+
+h2 {
+	font-size: 18pt;
+	text-align: center;
 }
 
 a {
@@ -426,9 +420,17 @@ hr {
 	margin-top: 15px;
 }
 
-img.interactive {
-	cursor: pointer;
+h3 {
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+	font-size: 14.5pt;
 }
+h4 {
+	margin: 5px 0px 5px 0px;
+	font-size: 12pt;
+}
+
+
 
 /*Divs-----------------------------------------------------------------------------------------------------------*/
 div.sec {
