@@ -288,7 +288,7 @@ table tr:first-child th:first-child { /*Round top-left border if it's the first 
 table tr:first-child th:last-child {
 	border-radius: 0 10px 0 0;
 }
-table tr:first-child th:first-child:last-child { /*If there is only one colums, round its top corners.*/
+table tr:first-child th:first-child:last-child { /*If there is only one column, round its top corners.*/
 	border-radius: 10px 10px 0 0;
 }
 
