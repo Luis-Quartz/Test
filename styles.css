@@ -48,6 +48,7 @@ img.float-center {
 }
 img.float-right {
 	margin-left: auto;
+	display: block;
 }
 img.interactive {
 	cursor: pointer;
