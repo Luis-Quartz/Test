@@ -110,16 +110,15 @@ article {
 	margin: 0;
 	padding: 0px;
 	background-color: #f1f1f1;
-	overflow-y: scroll;
 	
 	position: absolute;
+	overflow-y: scroll;
 }
 
 footer {
 	display: flex;
 	flex: 0 1 auto;
 	padding: 5px;
-	/*width: 100%;*/
 	float: left;
 	background-color: darkgray;
 }
