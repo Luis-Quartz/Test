@@ -25,6 +25,7 @@ body {
 header {
 	display: flex;
 	flex: 0 1 82px;
+	justify-content: space-between;
 	background-color: #fa543f;
 	padding: 15px;
 	text-align: center;
@@ -44,9 +45,9 @@ img.float-center {
 	right: 0;
 	text-align: center;
 }
-img.float-right {
+/*img.float-right {
 	margin-left: auto;
-}
+}*/
 img.interactive {
 	cursor: pointer;
 }
