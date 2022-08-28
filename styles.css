@@ -25,30 +25,39 @@ body {
 header {
 	display: flex;
 	flex: 0 1 82px;
-	justify-content: space-between;
 	background-color: #fa543f;
 	padding: 15px;
-	text-align: center;
-	color: white;
+	margin: 0px;
 }
-img.decoration {
-	float: left;
-	top: 15px;
-	left: 15px;
+#header-full {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	width: 100%;
 	height: 52px;
+	margin: 0px;
+	padding: 0px;
+	/*background-color: blue;*/
 }
-img.float-center {
-	position:absolute;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
+#header-mobile {
+	display: flex;
+	justify-content: space-between;
 	text-align: center;
+	width: 100%;
+	height: 52px;
+	margin: 0px;
+	padding: 0px;
+	/*background-color: green;*/
 }
-/*img.float-right {
-	margin-left: auto;
-}*/
-img.interactive {
+.decoration {
+	height: 52px;
+	margin: 0px;
+	padding: 0px;
+}
+.mobile-button {
+	height: 52px;
+	margin: 0px;
+	padding: 0px;
 	cursor: pointer;
 }
 
@@ -140,15 +149,11 @@ li a:hover {
 }
 
 /*Screen Response-----------------------------------------------------------------------*/
-.mobile-button {
-	float: left;
-	top: 15px;
-	left: 15px;
-	height: 52px;
-	cursor: pointer;
-}
 
 @media only screen and (max-width: 890px) { /*What to do when screen is or becomes too small*/
+	#header-full {
+		display: none;
+	}
 	/*Hide nav and side bars*/
 	#nav {
 		display: none;
@@ -168,6 +173,9 @@ li a:hover {
 }
 
 @media only screen and (min-width: 891px) { /*What to do if screen becomes large enough*/
+	#header-mobile {
+		display: none;
+	}
 	#nav-m {
 		visibility: hidden;
 	}
@@ -379,6 +387,9 @@ div.gallerycontainer {
 	grid-gap: 20px;
 	justify-content: center;
 	width: 100%;
+}
+img.interactive {
+	cursor: pointer;
 }
 th.sprh {
 	min-width: 218px;
@@ -601,6 +612,14 @@ td.icon {
 }
 td.name {
 	text-align: left;
+}
+img.float-center {
+	position:absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 @font-face { font-family: PokemonFL; src: url('pkmnfl.ttf'); }
 @font-face { font-family: Delicious; font-weight: bold; src: url('Delicious-Bold.otf');}
