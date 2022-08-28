@@ -46,6 +46,14 @@ img.float-center {
 	right: 0;
 	text-align: center;
 }
+img.float-right {
+	position:absolute;
+	margin-left: auto;
+	margin-right: 0;
+	left: 0;
+	right: 0;
+	text-align: right;
+}
 img.interactive {
 	cursor: pointer;
 }
