@@ -7,7 +7,7 @@ html {
 }
 
 body {
-	height: min(100vh, 500px);
+	display: inline-block;
 	font-family: sans-serif;
 	margin: 0;
 	background-color: lightgray;
@@ -45,7 +45,7 @@ img.interactive {
 }
 
 #nav {
-	display: inline-block; /*Along with the main-div's flex display, makes all divs same height as the tallest one.*/
+	display: inline-block; /*Along with the main-div's 'display: flex;', makes all divs same height as the tallest one.*/
 	float: left;
 	padding: 0;
 	margin: 0;
@@ -100,7 +100,6 @@ footer {
 	background-color: darkgray;
 }
 
-/*Page Core-------------------------------------------------------------------------------*/
 h1.barheader {
 	margin: 0;
 	padding: 15px;
@@ -134,7 +133,7 @@ li a:hover {
 	cursor: pointer;
 }
 
-@media only screen and (max-width: 830px) { /*What to do when screen is or becomes too small*/
+@media only screen and (max-width: 890px) { /*What to do when screen is or becomes too small*/
 	/*Hide nav and side bars*/
 	#nav {
 		display: none;
@@ -153,7 +152,7 @@ li a:hover {
 	}
 }
 
-@media only screen and (min-width: 831px) { /*What to do if screen becomes large enough*/
+@media only screen and (min-width: 891px) { /*What to do if screen becomes large enough*/
 	#nav-m {
 		visibility: hidden;
 	}
