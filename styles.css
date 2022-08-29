@@ -133,6 +133,9 @@ article {
 	margin-top: 20px;
 	margin-bottom: 5px;
 }
+.bartext {
+	margin-bottom: 7px;
+}
 .barline {
 	border: 1px dashed;
 	width: 75%;
