@@ -124,9 +124,9 @@ article {
 }
 
 .centered {
-	text-align: centered;
 	margin: auto;
 	display: block;
+	text-align: centered;
 }
 .sideimg {
 	max-width: 160px;
