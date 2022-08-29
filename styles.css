@@ -16,7 +16,7 @@ body {
 	background-color: lightgray;
 }
 
-.page {
+#page {
 	display: flex;
 	flex-flow: column;
 	height: 100%;
@@ -82,7 +82,7 @@ img.float-center {
 	width: 200px;
 	background-color: #f1f1f1;
 }
-#nav-m {
+#nav-mobileobile {
 	height: calc(100% - 82px);
 	float: left;
 	width: 200px;
@@ -110,7 +110,7 @@ article {
 	width: 200px;
 	background-color: #f1f1f1;
 }
-#side-m {
+#side-mobileobile {
 	height: calc(100% - 82px);
 	right: 0;
 	margin-left: 800px;
@@ -202,10 +202,10 @@ li a:hover {
 	#header-mobile {
 		display: none;
 	}
-	#nav-m {
+	#nav-mobile {
 		visibility: hidden;
 	}
-	#side-m {
+	#side-mobile {
 		visibility: hidden;
 	}
 	img.mobile-button {
