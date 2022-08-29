@@ -115,6 +115,13 @@ article {
 	overflow-y: scroll;
 }
 
+.centered {
+	text-align: center;
+}
+.sideimg {
+	max-width: 160px;
+}
+
 footer {
 	display: flex;
 	flex: 0 1 auto;
