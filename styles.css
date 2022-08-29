@@ -126,7 +126,7 @@ article {
 .centered {
 	margin: auto;
 	display: block;
-	text-align: centered;
+	text-align: center;
 }
 .sideimg {
 	max-width: 160px;
