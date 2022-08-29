@@ -124,6 +124,7 @@ article {
 }
 
 .centered {
+	text-align: centered;
 	margin: auto;
 	display: block;
 }
@@ -132,14 +133,10 @@ article {
 	margin-top: 20px;
 	margin-bottom: 5px;
 }
-.sidetext {
-	text-align: centered;
-	margin-bottom: 7px;
-}
 .barline {
-	padding-left: 7px;
-	padding-right: 7px;
-	margin: 0px;
+	border: 1px dashed;
+	width: 75%;
+	margin: 0 auto;
 }
 
 footer {
