@@ -455,13 +455,13 @@ table tr:first-child:last-child th:first-child { /*If this is the only row and t
 .marginbtm {
 	margin-bottom: 20px;
 }
-th.family {
+th.familyheader {
 	color: #f7c03d;
 	padding: 3px 0 3px 0;
 	background-color: #151515;
 	font-size: 15pt;
 }
-td.familyspacing {
+p.familyentry {
 	margin: 8px;
 }
 th.species {
@@ -471,6 +471,16 @@ th.species {
 	font-size: 15pt;
 }
 
+table.dexh {
+	max-width: 500px;
+}
+th.dexh {
+	padding: 3px 10px 3px 10px;
+	width: 35%;
+}
+td.dexh {
+	width: 65%;
+}
 
 
 
@@ -574,12 +584,6 @@ table.art {
 	margin: auto;
 	margin-bottom: 0px;
 }
-table.dexh {
-	border: 1px solid #0a0a0a;
-	padding: 2px;
-	width: 100%;
-	max-width: 500px;
-}
 td.spr {
 	text-align: center;
 	vertical-align: bottom;
@@ -612,17 +616,7 @@ td.dexspr {
 	padding: 7px 7px 3px 7px;
 }
 
-th.dexh {
-	text-align: center;
-	background-color: #dedef0;
-	padding: 3px 10px 3px 10px;
-	width: 35%;
-}
-td.dexh {
-	text-align: center;
-	background-color: #fcfcff;
-	width: 65%;
-}
+
 
 th.dexv {
 	text-align: center;
