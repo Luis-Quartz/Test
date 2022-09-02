@@ -491,6 +491,15 @@ th.dexh {
 td.dexh {
 	width: 65%;
 }
+.male {
+	color: #1A11D5;
+}
+.female {
+	color: #BB0544;
+}
+.genderless {
+	color: #535353;
+}
 
 
 
