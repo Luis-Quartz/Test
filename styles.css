@@ -471,6 +471,18 @@ th.species {
 	font-size: 15pt;
 }
 
+hr {
+	width: 90%;
+	border: dashed;
+	margin-top: 15px;
+}
+
+h3 {
+	text-align: center;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+	font-size: 14.5pt;
+}
 table.dexh {
 	width: 300px;
 }
@@ -485,15 +497,14 @@ td.dexh {
 
 
 
-hr {
-	margin-top: 15px;
-}
 
-h3 {
-	margin: 0px 0px 5px 0px;
-	padding: 0px;
-	font-size: 14.5pt;
-}
+
+
+
+
+
+
+
 h4 {
 	margin: 5px 0px 5px 0px;
 	font-size: 12pt;
