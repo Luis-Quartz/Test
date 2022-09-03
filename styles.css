@@ -74,7 +74,7 @@ img.float-center {
 	flex: 1 1 auto;
 }
 
-#nav {
+#pokenav {
 	display: inline-block; /*Along with the main-div's 'display: flex;', makes all divs same height as the tallest one.*/
 	float: left;
 	padding: 0;
@@ -82,7 +82,7 @@ img.float-center {
 	width: 200px;
 	background-color: #f1f1f1;
 }
-#nav-mobileobile {
+#pokenav-mobile {
 	height: calc(100% - 82px);
 	float: left;
 	width: 200px;
@@ -102,7 +102,7 @@ article {
 	background-color: #ffffff;
 }
 
-#side {
+#pokegear {
 	display: inline-block;
 	float: right;
 	padding: 0;
@@ -110,7 +110,7 @@ article {
 	width: 200px;
 	background-color: #f1f1f1;
 }
-#side-mobileobile {
+#pokegear-mobile {
 	height: calc(100% - 82px);
 	right: 0;
 	margin-left: 800px;
@@ -181,10 +181,10 @@ li a:hover {
 		display: none;
 	}
 	/*Hide nav and side bars*/
-	#nav {
+	#pokenav {
 		display: none;
 	}
-	#side {
+	#pokegear {
 		display: none;
 	}
 	/*make article 100% of the screen's width*/
@@ -202,10 +202,10 @@ li a:hover {
 	#header-mobile {
 		display: none;
 	}
-	#nav-mobile {
+	#pokenav-mobile {
 		visibility: hidden;
 	}
-	#side-mobile {
+	#pokegear-mobile {
 		visibility: hidden;
 	}
 	img.mobile-button {
