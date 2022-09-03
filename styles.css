@@ -501,6 +501,13 @@ td.dexh {
 	color: #535353;
 }
 
+th.stat {
+	width: 55px;
+}
+th.hp {
+	background-color: pink;
+}
+
 
 
 
