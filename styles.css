@@ -145,7 +145,7 @@ hr.barline {
 footer {
 	display: flex;
 	flex: 0 1 auto;
-	padding: 5px;
+	padding: 20px;
 	float: left;
 	background-color: darkgray;
 }
@@ -502,18 +502,51 @@ td.dexh {
 }
 
 th.stat {
-	width: 73px;
+	width: 200px;
 }
 th.hp {
-	background-color: pink;
+	background-color: #ffb4ed;
+}
+th.attack {
+	background-color: #ff9696;
+}
+th.defense {
+	background-color: #fffdb4;
+}
+th.spatk {
+	background-color: #b4b5ff;
+}
+th.spdef {
+	background-color: #b4ffc4;
+}
+th.speed {
+	background-color: #b4fffb;
 }
 
+td.stat {
+	width: 200px;
+}
 td.hp {
-	background-color: lightpink;
+	background-color: #ffe3f8;
+}
+td.attack {
+	background-color: #ffd7d7;
+}
+td.defense {
+	background-color: #fffee3;
+}
+td.spatk {
+	background-color: #e0e1ff;
+}
+td.spdef {
+	background-color: #e7ffec;
+}
+td.speed {
+	background-color: #e7fffe;
 }
 
 td.total {
-	
+	background-image: /Resources/StatTotalBackground.png;
 }
 
 
