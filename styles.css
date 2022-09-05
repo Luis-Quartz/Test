@@ -68,9 +68,11 @@ img.float-center {
 	padding: 0px;
 	cursor: pointer;
 	background: url("/Resources/MobileButton.png") no-repeat;
+	background-size: cover;
 }
 .mobile-button:hover {
 	background: url("/Resources/MobileButtonHover.png") no-repeat;
+	background-size: cover;
 }
 
 #main-div {
