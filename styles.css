@@ -392,8 +392,6 @@ th.sortable:hover {
 td {
 	background-color: #fcfcff;
 	text-align: center;
-	padding-left: 7px;
-	padding-right: 7px;
 }
 
 .dexlist {
@@ -464,6 +462,10 @@ table tr:first-child:last-child th:first-child { /*If this is the only row and t
 .rightalign {
 	text-align: right;
 	padding-right: 5px;
+}
+td.banner {
+	padding-left: 7px;
+	padding-right: 7px;
 }
 .marginbtm {
 	margin-bottom: 20px;
