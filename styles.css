@@ -392,6 +392,8 @@ th.sortable:hover {
 td {
 	background-color: #fcfcff;
 	text-align: center;
+	padding-left: 7px;
+	padding-right: 7px;
 }
 
 .dexlist {
