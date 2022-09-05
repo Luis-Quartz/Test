@@ -54,6 +54,11 @@ header {
 	margin: 0px;
 	padding: 0px;
 }
+.mobile-decoration {
+	height: 52px;
+	margin: 0px;
+	padding: 0px;
+}
 img.float-center {
 	position:absolute;
 	margin-left: auto;
