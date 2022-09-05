@@ -547,6 +547,8 @@ td.speed {
 
 td.total {
 	background-image: url("/Resources/StatTotalBackground.png");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 
