@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<link rel="shortcut icon" href="/Resources/Icon.png">
+		<title>The Fakemon Library &mdash; An archive for fan-made Pokémon</title>
+		<link rel="stylesheet" href="/styles.css">
+		<script src="/dynamics.js"></script>
+	</head>
+
+	<body>
+	
+		<div id="page">
+		
+			<header include-html="/header.html">
+			</header>
+			
+			<div id="main-div">
+			
+				<div id="pokenav" include-html="/navbar.html">
+				</div>
+				
+				<div id="pokenav-mobile" include-html="/navbar.html" style="display: none;">
+				</div>
+				
+				<article>
+				
+					<h1>Pokémon Quartz</h1>
+					
+					<img src="/ROMHacks/PokémonQuartz/Title.png></img>
+					
+					<p>Pokémon Quartz is a ROM hack of Pokémon Ruby created by Baro. It was released in 2006.</p>
+					
+					<h2>Generation 1</h2>
+					
+					<table id="dexlist1" class="dexlist">
+					
+						<tr>
+							<th class="col15 sortable" onclick="sortTable(0, 'dexlist1')">
+								No.
+							</th>
+							<th colspan=2 class="sortable" onclick="sortTable(1, 'dexlist1')">
+								Pokémon
+							</th>
+							<th class="col30 sortable" onclick="sortTable(3, 'dexlist1')">
+								Type
+							</th>
+						</tr>
+						
+						<tr>
+							<td>
+								001
+							</td>
+							<td class="col15">
+								<img src="/ROMHacks/PokémonQuartz/Icons/Chapebaya.png" class="ico"></img>
+							</td>
+							<td class="col40 leftalign">
+								<a href="/ROMHacks/PokémonQuartz/Pokédex/Chapebaya.html">
+									Chapebaya
+								</a>
+							</td>
+							<td>
+								<p class="type Grass">Grass</p>
+								<p class="type Grass">Grass</p>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								004
+							</td>
+							<td>
+								<img src="/ROMHacks/PokémonQuartz/Icons/ChapebayaAlolan.png" class="ico"></img>
+							</td>
+							<td class="leftalign">
+								<a href="/ROMHacks/PokémonQuartz/Pokédex/Chapebaya.html">
+									Alolan Chapebaya
+								</a>
+							</td>
+							<td>
+								<p class="type Grass">Grass</p>
+								<p class="type Fire">Fire</p>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								025
+							</td>
+							<td>
+								<img src="/ROMHacks/PokémonQuartz/Icons/ChapebayaNuclear.png" class="ico"></img>
+							</td>
+							<td class="leftalign">
+								<a href="/ROMHacks/PokémonQuartz/Pokédex/Chapebaya.html">
+									Chapebaya Root
+								</a>
+							</td>
+							<td>
+								<p class="type Electric">Electric</p>
+								<p class="type Psychic">Psychic</p>
+							</td>
+						</tr>
+						
+					</table>
+					
+				</article>
+				
+				<div id="pokegear" include-html="/ROMHacks/PokémonQuartz/sidebar.html">
+				</div>
+				
+				<div id="pokegear-mobile" include-html="/ROMHacks/PokémonQuartz/sidebar.html" style="display: none;">
+				</div>
+			</div>
+			
+			<footer include-html="/footer.html">
+			</footer>
+		
+		</div>
+		
+		<script>
+			includeHTML();
+		</script>
+		
+	</body>
+</html>
