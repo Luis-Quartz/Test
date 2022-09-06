@@ -423,6 +423,9 @@ div.gallerycontainer {
 	justify-content: center;
 	width: 100%;
 }
+img.marker {
+	height: 20px;
+}
 img.interactive {
 	cursor: pointer;
 }
