@@ -571,17 +571,16 @@ td.total {
 	background-repeat: no-repeat;
 }
 
-table.dexpage {
+.dexpage {
 	border-radius: 0px;
 	padding: 0 7px;
-	max-width: 450px;
-	background-color: #ab93f4;
+	width: 400px;
 }
-th.dexpage {
+.entry {
 	border-radius: 0px;
 	background-color: #c9b9f8;
 }
-td.dexpage {
+.entrypage {
 	padding: 5px;
 	text-align: left;
 	background-color: #ede8fd;
