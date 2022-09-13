@@ -578,6 +578,7 @@ th.dexpage {
 td.dexpage {
 	padding: 5px;
 	text-align: left;
+	border-radius: 0px;
 }
 
 
