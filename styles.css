@@ -576,11 +576,11 @@ table.dexpage {
 	padding: 0 7px;
 	width: 400px;
 }
-.dexentry {
+th.dexentry {
 	border-radius: 0px;
 	background-color: #c9b9f8;
 }
-.entrypage {
+td.entrypage {
 	padding: 5px;
 	text-align: left;
 	background-color: #ede8fd;
