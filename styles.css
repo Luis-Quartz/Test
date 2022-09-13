@@ -572,6 +572,10 @@ table.dexpage {
 	padding: 0px 5px;
 	width: 375px;
 }
+td.dexpage {
+	padding: 2px;
+	text-align: left;
+}
 
 
 
