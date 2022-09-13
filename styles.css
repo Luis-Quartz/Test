@@ -382,13 +382,13 @@ table tr:first-child:last-child td:first-child:last-child { /*If the cell is the
 }
 
 th{
-	background-color: #d5c9f6;
+	background-color: #dedef0;
 }
 th.sortable:hover {
 	cursor: pointer;
 }
 td {
-	background-color: #f7f3fe;
+	background-color: #fcfcff;
 	text-align: center;
 }
 
