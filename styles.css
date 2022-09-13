@@ -575,15 +575,16 @@ table.dexpage {
 	border-radius: 0px;
 	padding: 0 7px;
 	width: 400px;
+	background-color: #c9b9f8;
 }
 th.dexentry {
 	border-radius: 0px;
-	background-color: #c9b9f8;
+	background-color: #ede8fd;
 }
 td.entrypage {
 	padding: 5px;
 	text-align: left;
-	background-color: #ede8fd;
+	background-color: #f7f3fe;
 }
 
 
