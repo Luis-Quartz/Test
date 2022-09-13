@@ -339,7 +339,7 @@ p.Crystal {
 table {
 	border: 1px solid #0a0a0a;
 	border-radius: 10px;
-	background-color: #9084c0;
+	background-color: #776491;
 	padding: 2px;
 }
 table tr:first-child th:first-child { /*Round top-left border if it's the first row of the first column.*/
