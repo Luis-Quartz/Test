@@ -567,9 +567,10 @@ td.total {
 	background-repeat: no-repeat;
 }
 
-div.dexpage {
-	border: solid, black, 1px;
-	padding: 5px;
+table.dexpage {
+	border-radius: 0px;
+	padding: 0px 5px;
+	width: 375px;
 }
 
 
