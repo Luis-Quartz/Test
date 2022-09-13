@@ -567,7 +567,10 @@ td.total {
 	background-repeat: no-repeat;
 }
 
-
+div.dexpage {
+	border: solid, black, 1px;
+	padding: 5px;
+}
 
 
 
