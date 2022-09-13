@@ -571,12 +571,12 @@ td.total {
 	background-repeat: no-repeat;
 }
 
-.dexpage {
+table.dexpage {
 	border-radius: 0px;
 	padding: 0 7px;
 	width: 400px;
 }
-.entry {
+.dexentry {
 	border-radius: 0px;
 	background-color: #c9b9f8;
 }
