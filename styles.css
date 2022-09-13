@@ -382,7 +382,7 @@ table tr:first-child:last-child td:first-child:last-child { /*If the cell is the
 }
 
 th{
-	background-color: #c9b9f8;
+	background-color: #d5c9f6;
 }
 th.sortable:hover {
 	cursor: pointer;
@@ -571,20 +571,8 @@ td.total {
 	background-repeat: no-repeat;
 }
 
-table.dexpage {
-	border-radius: 0px;
-	padding: 0 7px;
-	width: 400px;
-	background-color: #c9b9f8;
-}
-th.dexentry {
-	border-radius: 0px;
-	background-color: #ede8fd;
-}
-td.entrypage {
-	padding: 5px;
+td.dexpage {
 	text-align: left;
-	background-color: #f7f3fe;
 }
 
 
