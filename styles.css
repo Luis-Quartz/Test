@@ -573,16 +573,18 @@ td.total {
 
 table.dexpage {
 	border-radius: 0px;
-	padding: 2px 10px;
-	width: 375px;
+	padding: 0 7px;
+	max-width: 450px;
+	background-color: #ab93f4;
 }
 th.dexpage {
 	border-radius: 0px;
+	background-color: #c9b9f8;
 }
 td.dexpage {
 	padding: 5px;
 	text-align: left;
-	border-radius: 0px;
+	background-color: #ede8fd;
 }
 
 
