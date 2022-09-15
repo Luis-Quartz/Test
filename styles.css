@@ -532,7 +532,7 @@ td.dexh {
 }
 
 th.stat {
-	width: 90px;
+	width: 25%;
 }
 th.hp {
 	background-color: #ffb4ed;
@@ -554,7 +554,7 @@ th.speed {
 }
 
 td.stat {
-	width: 90px;
+	width: 25%;
 }
 td.hp {
 	background-color: #ffe3f8;
