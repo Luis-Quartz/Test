@@ -511,9 +511,8 @@ h3 {
 	padding: 0px;
 	font-size: 14.5pt;
 }
-div.dexh {
-	width: 100%;
-	max-width: 375px;
+table.dexh {
+	width: 320px;
 }
 th.dexh {
 	width: 35%;
@@ -532,7 +531,7 @@ td.dexh {
 }
 
 th.stat {
-	width: 25%;
+	width: 80px;
 }
 th.hp {
 	background-color: #ffb4ed;
@@ -554,7 +553,7 @@ th.speed {
 }
 
 td.stat {
-	width: 25%;
+	width: 80px;
 }
 td.hp {
 	background-color: #ffe3f8;
