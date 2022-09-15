@@ -512,7 +512,8 @@ h3 {
 	font-size: 14.5pt;
 }
 table.dexh {
-	width: 375px;
+	width: 100%;
+	max-width: 375px;
 }
 th.dexh {
 	width: 35%;
