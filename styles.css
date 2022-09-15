@@ -194,16 +194,8 @@ footer {
 
 /*Screen Response-----------------------------------------------------------------------*/
 
-@media only screen and (max-width: 600px) { /*What to do when screen is or becomes way too small*/
-	#header-mobile {
-		display: none;
-	}
-
 @media only screen and (max-width: 890px) { /*What to do when screen is or becomes too small*/
 	#header-full {
-		display: none;
-	}
-	#header-small {
 		display: none;
 	}
 	/*Hide nav and side bars*/
