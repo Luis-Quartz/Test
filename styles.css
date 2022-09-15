@@ -28,7 +28,6 @@ header {
 	background-color: #fa543f;
 	padding: 15px;
 	margin: 0px;
-	position: sticky;
 }
 #header-full {
 	display: flex;
