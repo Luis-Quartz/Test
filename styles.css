@@ -203,6 +203,9 @@ footer {
 	#header-full {
 		display: none;
 	}
+	#header-small {
+		display: none;
+	}
 	/*Hide nav and side bars*/
 	#pokenav {
 		display: none;
