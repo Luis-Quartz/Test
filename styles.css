@@ -47,6 +47,15 @@ header {
 	margin: 0px;
 	padding: 0px;
 }
+#header-small {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	width: 100%;
+	height: 52px;
+	margin: 0px;
+	padding: 0px;
+}
 .decoration {
 	height: 52px;
 	margin: 0px;
@@ -184,6 +193,11 @@ footer {
 }
 
 /*Screen Response-----------------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) { /*What to do when screen is or becomes way too small*/
+	#header-mobile {
+		display: none;
+	}
 
 @media only screen and (max-width: 890px) { /*What to do when screen is or becomes too small*/
 	#header-full {
