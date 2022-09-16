@@ -531,6 +531,13 @@ td.dexh {
 	color: #535353;
 }
 
+p.stat {
+	text-align: center;
+	border-radius: 7px;
+	margin: 2px;
+	padding: 1px;
+}
+
 th.stat {
 	width: 25%;
 }
