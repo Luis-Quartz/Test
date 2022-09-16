@@ -512,7 +512,7 @@ h3 {
 	padding: 0px;
 	font-size: 14.5pt;
 }
-table.dexh {
+table.dex {
 	width: 320px;
 }
 th.dexh {
@@ -534,29 +534,29 @@ td.dexh {
 th.stat {
 	width: 25%;
 }
-th.hp {
+.hp {
 	background-color: #ffb4ed;
 }
-th.attack {
+.attack {
 	background-color: #ff9696;
 }
-th.defense {
+.defense {
 	background-color: #fffdb4;
 }
-th.spatk {
+.spatk {
 	background-color: #b4b5ff;
 }
-th.spdef {
+.spdef {
 	background-color: #b4ffc4;
 }
-th.speed {
+.speed {
 	background-color: #b4fffb;
 }
 
 td.stat {
 	width: 25%;
 }
-td.hp {
+.hp {
 	background-color: #ffe3f8;
 }
 td.attack {
@@ -586,6 +586,13 @@ td.dexpage {
 	padding: 5px;
 }
 
+img.shape {
+	height: 25px;
+}
+
+.col85 {
+	width: 85%;
+}
 
 
 
@@ -600,93 +607,7 @@ h4 {
 	font-size: 12pt;
 }
 
-/*Divs-----------------------------------------------------------------------------------------------------------*/
 
-div.tablecontainerart {
-	text-align: center;
-	vertical-align: top;
-	float: left;
-	width: 260px; /*Make sprite tables all 260x260 px*/
-	height: 260px;
-	margin: 10px;
-}
-div.tablecontainerh {
-	text-align: center;
-	vertical-align: top;
-	float: left;
-	width: 300px;
-	padding: 0px;
-	margin: 10px 10px 0px 10px; /*Add space between tables, first and last table are offset by div.section's negative margins*/
-}
-
-/*Sprites-------------------------------------------------------------------------------------------------------*/
-
-img.art {
-	max-width: 236px;
-	max-height: 164px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-/*Tables--------------------------------------------------------------------------------------------------------*/
-
-table.dexequidistant {
-	width: 100%;
-	border: 1px solid #0a0a0a;
-	padding: 2px;
-	margin: auto;
-	margin-bottom: 0px;
-	max-width: 500px;
-}
-
-table.spr {
-	width: 150px;
-	height: 150px;
-	border: 1px solid #0a0a0a;
-	padding: 2px;
-	margin: auto;
-	margin-bottom: 0px;
-}
-
-table.art {
-	width: 150px;
-	height: 150px;
-	border: 1px solid #0a0a0a;
-	padding: 2px;
-	margin: auto;
-	margin-bottom: 0px;
-}
-td.spr {
-	text-align: center;
-	vertical-align: bottom;
-	background-color: #fcfcff;
-	padding: 7px 7px 3px 7px;
-	width: 200px;
-	height: 166px;
-}
-td.sprtype {
-	width: 104px; /*Should be (td.spr's width / 2) - 1*/
-	text-align: center;
-	background-color: #fcfcff;
-}
-td.art {
-	text-align: center;
-	vertical-align: bottom;
-	background-color: #fcfcff;
-	padding: 7px 7px 3px 7px;
-	width: 250px;
-	height: 196px;
-}
-td.dexspr {
-	text-align: center;
-	vertical-align: bottom;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	background-color: #fcfcff;
-	padding: 7px 7px 3px 7px;
-}
 
 
 
