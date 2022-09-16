@@ -587,7 +587,8 @@ td.dexpage {
 }
 
 img.shape {
-	height: 25px;
+	max-height: 32px;
+	max-width: 32px;
 }
 
 .col85 {
