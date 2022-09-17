@@ -234,10 +234,12 @@ footer {
 /*Pokédex List Styles========================================================================================================*/
 h1 {
 	margin: 0px;
-	font-size: 21pt;
+	padding: 0px;
+	font-size: 20pt;
 }
 
 p {
+	font-size: 12pt;
 	padding: 0px 2px 0px 2px;
 }
 
@@ -510,7 +512,7 @@ h3 {
 	text-align: center;
 	margin: 0px 0px 5px 0px;
 	padding: 0px;
-	font-size: 14.5pt;
+	font-size: 16pt;
 }
 table.dex {
 	width: 320px;
@@ -599,18 +601,16 @@ img.shape {
 	width: 75%;
 }
 
-
-
-
-
-
-
-
-
 h4 {
-	margin: 5px 0px 5px 0px;
-	font-size: 12pt;
+	margin: 0px;
+	font-size: 14pt;
 }
+
+
+
+
+
+
 
 
 
