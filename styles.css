@@ -246,6 +246,8 @@ p {
 h2 {
 	font-size: 18pt;
 	text-align: center;
+	margin: 0px;
+	padding: 0px;
 }
 
 a {
@@ -602,7 +604,7 @@ img.shape {
 }
 
 h4 {
-	margin: 0px;
+	margin: 0px 0px 2px 0px;
 	font-size: 14pt;
 }
 
