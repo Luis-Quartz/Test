@@ -538,7 +538,7 @@ p.stat {
 	padding: 1px;
 }
 
-th.stat {
+.col25 {
 	width: 25%;
 }
 .hp {
@@ -560,9 +560,6 @@ th.stat {
 	background-color: #b4fffb;
 }
 
-td.stat {
-	width: 25%;
-}
 .hp {
 	background-color: #ffe3f8;
 }
@@ -598,8 +595,8 @@ img.shape {
 	max-width: 32px;
 }
 
-.col85 {
-	width: 85%;
+.col75 {
+	width: 75%;
 }
 
 
