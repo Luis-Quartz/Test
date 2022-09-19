@@ -239,7 +239,6 @@ h1 {
 }
 
 p {
-	font-size: 11pt;
 	padding: 0px 2px 0px 2px;
 }
 
@@ -396,8 +395,6 @@ table tr:first-child:last-child td:first-child:last-child { /*If the cell is the
 
 th{
 	background-color: #dedef0;
-	font-size: 11pt;
-	
 }
 th.sortable:hover {
 	cursor: pointer;
@@ -405,7 +402,6 @@ th.sortable:hover {
 td {
 	background-color: #fcfcff;
 	text-align: center;
-	font-size: 11pt;
 }
 
 .dexlist {
