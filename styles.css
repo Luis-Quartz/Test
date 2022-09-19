@@ -396,6 +396,7 @@ table tr:first-child:last-child td:first-child:last-child { /*If the cell is the
 
 th{
 	background-color: #dedef0;
+	font-size: 11pt;
 	
 }
 th.sortable:hover {
@@ -404,6 +405,7 @@ th.sortable:hover {
 td {
 	background-color: #fcfcff;
 	text-align: center;
+	font-size: 11pt;
 }
 
 .dexlist {
