@@ -239,7 +239,7 @@ h1 {
 }
 
 p {
-	font-size: 12pt;
+	font-size: 11pt;
 	padding: 0px 2px 0px 2px;
 }
 
@@ -396,6 +396,7 @@ table tr:first-child:last-child td:first-child:last-child { /*If the cell is the
 
 th{
 	background-color: #dedef0;
+	
 }
 th.sortable:hover {
 	cursor: pointer;
@@ -604,6 +605,7 @@ img.shape {
 }
 
 h4 {
+	text-align: center;
 	margin: 0px 0px 2px 0px;
 	font-size: 14pt;
 }
