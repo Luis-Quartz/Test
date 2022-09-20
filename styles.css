@@ -117,7 +117,12 @@ h1.barheader {
 	padding: 15px;
 	background: #ababab;
 	font-size: 15pt;
+}
+h1.barheader a {
 	color: black;
+}
+h1.barheader a:hover {
+	text-decoration: none;
 }
 ul.navlist {
 	list-style-type: none;
