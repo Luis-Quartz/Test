@@ -117,8 +117,9 @@ h1.barheader {
 	padding: 15px;
 	background: #ababab;
 	font-size: 15pt;
+	color: black;
 }
-ul {
+ul.navlist {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
