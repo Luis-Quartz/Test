@@ -531,8 +531,9 @@ td.dexh {
 	width: 65%;
 }
 .nkdf {
-	border-bottom: 1px dashed #472597;
-	display: inline;
+	font-style: italic;
+	text-decoration: underline;
+	text-decoration-color: #472597;
 }
 .male {
 	color: #1A11D5;
