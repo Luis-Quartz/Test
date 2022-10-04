@@ -546,6 +546,7 @@ td.dexh {
 }
 
 p.color {
+	color: white;
 	text-align: center;
 	border-radius: 7px;
 	margin: 2px;
