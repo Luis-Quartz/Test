@@ -530,6 +530,10 @@ th.dexh {
 td.dexh {
 	width: 65%;
 }
+.nkdf {
+	border-bottom: 1px dashed #472597;
+	display: inline;
+}
 .male {
 	color: #1A11D5;
 }
@@ -538,6 +542,47 @@ td.dexh {
 }
 .genderless {
 	color: #535353;
+}
+
+p.color {
+	text-align: center;
+	border-radius: 7px;
+	margin: 2px;
+	padding: 1px;
+}
+p.indeterminate {
+	background-color: #c4b3cf;
+}
+p.red {
+	background-color: #f11616;
+}
+p.orange {
+	background-color: #ffa128;
+}
+p.yellow {
+	background-color: #f9ef14;
+}
+p.green {
+	background-color: #21e424;
+}
+p.blue {
+	background-color: #4970eb;
+}
+p.purple {
+	background-color: #c840f4;
+}
+p.pink {
+	background-color: #ff6ead;
+}
+p.black {
+	background-color: #2f2337;
+}
+p.gray {
+	background-color: #989898;
+}
+p.white {
+	color: black;
+	background-color: #eeeeee;
 }
 
 p.stat {
