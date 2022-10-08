@@ -248,6 +248,11 @@ p {
 	padding: 0px 2px 0px 2px;
 }
 
+p.news-signature {
+	text-align: right;
+	font-style: italic;
+}
+
 h2 {
 	font-size: 18pt;
 	text-align: center;
@@ -342,7 +347,7 @@ p.Sound {
 	background-color: #697873;
 }
 p.Magic {
-	background-color: #aa6eaa;
+	background-color: #9147c5;
 }
 p.Digital {
 	background-color: #46cdaf;
